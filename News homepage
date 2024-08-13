@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>News homepage</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="blackout">
+    <svg class='close-sidebar' width="32" height="31" xmlns="http://www.w3.org/2000/svg"><g fill="#00001A" fill-rule="evenodd"><path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z"/><path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z"/></g></svg>
+    <div class="sidebar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <header>
+      <img src="assets/images/logo.png" alt="Logo do site"  width="280">
+      <svg class="open-sidebar" width="40" height="17" xmlns="http://www.w3.org/2000/svg"><g fill="#00001A" fill-rule="evenodd"><path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z"/><path d="M0 0h40v3H0z"/></g></svg>
+      <nav>
+      
+            
+      <div class="header__fundo"></div>
+
+      <div class="header__botao">
+        <img src="assets/images/icon-menu.svg" alt="Ícone menu">
+
+    </nav>
+  </header>
+    <main>
+      <div class="emphasis">
+        <h1>Billie Eilish faz apresentação no encerramento <br>das Olimpíadas de Paris</h1>
+       <br>
+        <img src="assets/images/ellish.png" width="800" height="350">
+        <section>
+         <article>
+            <p>
+              No último domingo (11), durante o handover de Paris, a cantora estadunidense Billie Eilish marcou presença ao se apresentar no encerramento das Olimpíadas de Paris 2024. A artista não poderia deixar de trazer, durante a apresentação, seu toque descontraído ao estilo preppy para a celebração das Olimpíadas de Los Angeles 2028, já marcando assim o fim de uma temporada e uma prévia para uma próxima edição dos jogos.
+
+              Os Jogos de Paris 2024, realizou...</p>
+            <button>Ler mais</button>
+          </article>
+        </section>
+      </div>
+      <aside>
+        <h2>New</h2>
+        <br>
+        <img src="assets/images/aviao.png" width="320">
+        <article>
+          <h3><a href="#">Novos restos mortais são encontrados em Vinhedo e remoção de destroços de avião é interrompida</a></h3>
+          
+        </article>
+        <br>
+        <img src="assets/images/clima.png" width="320">
+        <article>
+          <h3><a href="#">Temperatura pode chegar a 2°C nesta semana; veja como fica sua região</a></h3>
+          
+        </article>
+      </aside>
+    </main>
+    <footer>
+      <article>
+        <img src="assets/images/image-retro-pcs.png" alt="Imagem de PCs Retro">
+        <div>
+          <h2>01</h2>
+          <h3><a href="#">São Paulo confirma mais três casos de febre de oropouche, totalizando cinco no estado</a></h3>
+        </div>
+      </article>
+      <article>
+        <img src="assets/images/image-top-laptops.png" alt="Imagem de top laptops">
+        <div>
+          <h2>02</h2>
+          <h3><a href="#">Grupo que oferecia ajuda a idosos em caixas eletrônicos é preso por golpes no Rio</a></h3>
+        </div>
+      </article>
+      <article>
+      </article>
+    </div>
+    <div>
+      <section class="dev">
+      <h4>Desenvolvido por <strong>Leticia Amarante</strong><br><br>FrontEnd Mentor</h4>
+  </section>
+</div>
+    </footer>
+  </div>
+  
+  <script src="index.js"></script>
+</body>
+</html>
